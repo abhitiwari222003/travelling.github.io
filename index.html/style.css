@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(banner1.jpg);
+    aspect-ratio: 1920/1277;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+     padding-top: 20px;
+
+}
+
+.header img {
+    width: 170px;
+    float: left;
+}
+
+.login-btn {
+   width: 100px;
+   padding: 8px 0;
+    outline: none ;
+    border: 2px solid #fff;
+    border-radius: 50px ;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+
+.header h1 {
+    padding-top: 290px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px 0;
+}
+
+.input-group {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+
+}
+
+.form-control {
+    border-radius: 30px !important;
+    border: 0 !important;
+    box-shadow: none;
+    margin: 2px;
+    
+}
+.input-group-text-btn {
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    padding: 0 25px ;
+    color: #fff;
+    border: 0 !important;
+}
+
+      /* Features */
+
+.feature{
+   padding: 100px 0;
+}
+.feature h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.featur-img img{
+     width: 100%;
+}
+.price {
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    background: #ff5722;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    left: 20px ;
+    bottom: -30px;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(37,73,214,0,.18);
+}
+
+.featur-img{
+    position: relative;
+}
+
+.rating {
+   padding: 3px;
+   background: #fff;
+   position: absolute;
+   float: right;
+   bottom:-1px;
+   right: 0;
+}
+
+.rating .fa {
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.feature-details .fa{
+    margin-right: 5px;
+} 
+.feature-box{
+   box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+   margin-bottom: 30px;
+}
+
+        /* Travelling Gallery */
+
+.gallery {
+
+   text-align: center;
+   padding: 100px 0;
+   background: #efefef;
+}        
+.gallery-box img {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+.gallery-box h4 {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: -2px 2px 2px #000;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.banner {
+    height: 80%;
+    background-image: url(banner2.jpg);
+    aspect-ratio: 1920/1182;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner-heighlights {
+    padding: 70px;
+    color: #fff;
+    background:rgba(0,0,0,0.7) ;
+   text-align: center;
+}
+.booking-btn {
+    width: 125px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+   outline: none;
+   margin-top: 20px;
+}
+.user-feedback {
+    text-align: center;
+    padding: 100px;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.5);
+    transition: 0.4s;
+   cursor: pointer;
+   margin-top: 50px;
+}
+.user-review p{
+    padding: 50px 4px 5px 10px;
+    font-family: sans-serif;
+}
+.user-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px; 
+}
+.user-review:hover{
+   transform: scale(1.1);
+}
+.footer{
+    padding: 100px 20px 20px;
+    color: #fff;
+    background-image: linear-gradient(#2d557d,#9610fb);
+}
+.footer-logo {
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    text-align: left;
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr{
+    margin: 0 5px;
+    color: #FFF;
+}
+
+ .footer .copyright{
+    text-align: center;
+    margin-top: 10px;
+}
+.fa-heart{
+    margin: 0 5px;
+    color: #f4433f;
+}
+
